@@ -30,7 +30,7 @@ The EventDispatcher is built around events. They indicate important system event
     }
 ```
 
-## 3.3. Initialize EventDispatcher
+## 3. Initialize EventDispatcher
 ```
 /// Create new instance
 EventDispatcher dispatcher = new EventDispatcher();
