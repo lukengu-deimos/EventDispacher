@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BPL.Event.EventDispatcher</id>
-    <version>1.0.1</version>
+    <version>1.2</version>
     <authors>Bona Philippe</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
