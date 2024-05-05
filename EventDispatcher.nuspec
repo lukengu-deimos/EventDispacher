@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>EventDispatcher</id>
-    <version>1.0.0</version>
+    <id>BPL.Event.EventDispatcher</id>
+    <version>1.0.1</version>
     <authors>Bona Philippe</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>

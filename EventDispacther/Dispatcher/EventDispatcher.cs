@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
-using EventDispacther.Interfaces;
+using BPL.Event.EventDispatcher.Interfaces;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace EventDispacther.Dispatcher;
+namespace BPL.Event.EventDispatcher.Dispatcher;
 
 public class EventDispatcher : IEventDispatcher
 {
@@ -24,7 +24,7 @@ public class EventDispatcher : IEventDispatcher
     public void Dispatch<TEvent>(TEvent @event) where TEvent : IEvent
     {
         Type eventType = typeof(TEvent);
-       
+
         if (_eventListeners.TryGetValue(eventType, out var eventListener))
         {
             foreach (var listener in eventListener.ToList())
@@ -36,26 +36,26 @@ public class EventDispatcher : IEventDispatcher
 
     public void RegisterEventSubscriber(object eventSubscriber)
     {
-       
-        if(!ImplementsEventSubscriberInterface(eventSubscriber.GetType()))
+
+        if (!ImplementsEventSubscriberInterface(eventSubscriber.GetType()))
         {
             return;
         }
         var eventTypes = GetEventTypes(eventSubscriber.GetType());
 
         foreach (var eventType in eventTypes)
-        { 
+        {
             if (!_eventListeners.ContainsKey(eventType))
-            { 
+            {
                 _eventListeners[eventType] = new List<Delegate>();
             }
-            _eventListeners[eventType].Add( CreateEventHandlerDelegate(eventSubscriber, eventType));
+            _eventListeners[eventType].Add(CreateEventHandlerDelegate(eventSubscriber, eventType));
         }
     }
 
     public void RegisterEventSubscribers(Assembly assembly)
     {
-      
+
         var types = assembly.GetTypes();
         var eventSubscriberTypes = assembly.GetTypes()
             .Where(type => type.IsClass && !type.IsAbstract && ImplementsEventSubscriberInterface(type));
@@ -63,7 +63,7 @@ public class EventDispatcher : IEventDispatcher
         foreach (var eventSubscriberType in eventSubscriberTypes)
         {
             var eventSubscriber = Activator.CreateInstance(eventSubscriberType);
-           RegisterEventSubscriber(eventSubscriber!);
+            RegisterEventSubscriber(eventSubscriber!);
         }
     }
 
@@ -94,7 +94,7 @@ public class EventDispatcher : IEventDispatcher
     {
         var handleEventMethod = typeof(IEventSubscriber<>).MakeGenericType(eventType)
                  .GetMethod("HandleEvent");
-     
+
         return Delegate.CreateDelegate(typeof(Action<>).MakeGenericType(eventType), eventSubscriber, handleEventMethod!);
     }
 }

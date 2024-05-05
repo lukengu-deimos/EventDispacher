@@ -1,9 +1,9 @@
 ﻿using System;
-using EventDispacther.Interfaces;
+using BPL.Event.EventDispatcher.Interfaces;
 
 namespace EventDispatcherTests;
 
-public class EventSubscriber: IEventSubscriber<NotificationEvent>
+public class EventSubscriber : IEventSubscriber<NotificationEvent>
 {
     public void HandleEvent(NotificationEvent @event)
     {

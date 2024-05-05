@@ -1,5 +1,5 @@
 ﻿using System;
-using EventDispacther.Interfaces;
+using BPL.Event.EventDispatcher.Interfaces;
 
 namespace EventDispatcherTests;
 
