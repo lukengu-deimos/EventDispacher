@@ -1,0 +1,11 @@
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/bin/Debug/net8.0/BPL.Event.Dispatcher.deps.json
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/bin/Debug/net8.0/BPL.Event.Dispatcher.dll
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/bin/Debug/net8.0/BPL.Event.Dispatcher.pdb
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/obj/Debug/net8.0/BPL.Event.Dispatcher.GeneratedMSBuildEditorConfig.editorconfig
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/obj/Debug/net8.0/BPL.Event.Dispatcher.AssemblyInfoInputs.cache
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/obj/Debug/net8.0/BPL.Event.Dispatcher.AssemblyInfo.cs
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/obj/Debug/net8.0/BPL.Event.Dispatcher.csproj.CoreCompileInputs.cache
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/obj/Debug/net8.0/BPL.Event.Dispatcher.dll
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/obj/Debug/net8.0/refint/BPL.Event.Dispatcher.dll
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/obj/Debug/net8.0/BPL.Event.Dispatcher.pdb
+/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.Dispatcher/obj/Debug/net8.0/ref/BPL.Event.Dispatcher.dll

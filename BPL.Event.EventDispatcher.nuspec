@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>BPL.Event.EventDispatcher</id>
+    <version>1.5</version>
+    <authors>Bona Philippe</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/lukengu-deimos/EventDispacher</projectUrl>
+    <description>EventDispatcher Inspired by Symfony: A Flexible Event Management System based on Levan Ostrovski's arcticle on medium.com</description>
+    <releaseNotes></releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Event Driven EventDispacher</tags>
+  
+    <dependencies>
+      <group targetFramework="net7.0">
+        <!-- Add dependencies for net7.0 here -->
+    </group> 
+    </dependencies>
+  </metadata>
+   <files>
+      <file src="BPL.Event.EventDispatcher/bin/Release/net7.0/BPL.Event.EventDispatcher.dll" target="lib/net7.0" />
+      <!-- Add other files as needed -->
+    </files>
+</package>

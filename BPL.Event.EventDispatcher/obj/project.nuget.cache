@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wUJVLpzxmse53UqRqQUeqZkGavg4CQauRMvkwb/9WdqzEOvw3gktnruw2qpxAGSfgpNlLwJDlZcEI/R1eC3ghQ==",
+  "success": true,
+  "projectFilePath": "/Users/deimos/RiderProjects/BPL.Event.Dispatcher/BPL.Event.EventDispatcher/BPL.Event.EventDispatcher.csproj",
+  "expectedPackageFiles": [
+    "/Users/deimos/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/deimos/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
